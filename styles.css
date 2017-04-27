@@ -2,16 +2,17 @@
 body{background-color: beige;}
 .calculator{width: 203px; height: 333px; background-color: #000; margin: 0px auto;}
   .display-area{width: 200px; height: 75px; color: #fff; text-align: right;}
-    #display{width: 195px; height: 75px; font-size: 150%; padding-top: 40px;}
+    #display{width: 195px; height: 75px; font-size: 175%; padding-top: 30px; overflow: hidden; margin: 0px auto;}
+    .display-area > #display{font-family: arial, sans-serif;}
   .button-area{width: 200px;}
     .button-area button{width: 50px; height: 50px; background-color: #fff;
-      font-size: 125%; border: none; margin-right: -3px; margin-bottom: 2px;}
+      font-size: 150%; border: none; margin-right: -3px; margin-bottom: 2px; font-weight: 200;}
 /* Change Zero Button Width*/
       .button-area button[name="zero"]{width: 101px;}
 /* Change Button Backbround Color To Gray*/
       .button-area button[name="clear"],
       .button-area button[name="opposite"],
-      .button-area button[name="percent"]{background-color: #ccc;}
+      .button-area button[name="percent"]{background-color: #ddd;}
 /* Change Button Backbround Color To Orange and Text Color To White*/
       .button-area button[name="division"],
       .button-area button[name="multiplication"],
