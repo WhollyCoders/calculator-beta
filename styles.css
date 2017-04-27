@@ -1,9 +1,9 @@
 *{padding: 0px; margin: 0px;}
 body{background-color: beige;}
-.calculator{width: 204px; height: 334px; background-color: #000; margin: 0px auto;}
+.calculator{width: 203px; height: 333px; background-color: #000; margin: 0px auto;}
   .display-area{width: 200px; height: 75px; color: #fff; text-align: right;}
-    .display{width: 190px; height: 75px; font-size: 150%; padding-top: 40px;}
-  .button-area{}
+    #display{width: 195px; height: 75px; font-size: 150%; padding-top: 40px;}
+  .button-area{width: 200px;}
     .button-area button{width: 50px; height: 50px; background-color: #fff;
       font-size: 125%; border: none; margin-right: -3px; margin-bottom: 2px;}
 /* Change Zero Button Width*/
