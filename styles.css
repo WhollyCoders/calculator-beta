@@ -1,0 +1,20 @@
+*{padding: 0px; margin: 0px;}
+body{background-color: beige;}
+.calculator{width: 204px; height: 334px; background-color: #000; margin: 0px auto;}
+  .display-area{width: 200px; height: 75px; color: #fff; text-align: right;}
+    .display{width: 190px; height: 75px; font-size: 150%; padding-top: 40px;}
+  .button-area{}
+    .button-area button{width: 50px; height: 50px; background-color: #fff;
+      font-size: 125%; border: none; margin-right: -3px; margin-bottom: 2px;}
+/* Change Zero Button Width*/
+      .button-area button[name="zero"]{width: 101px;}
+/* Change Button Backbround Color To Gray*/
+      .button-area button[name="clear"],
+      .button-area button[name="opposite"],
+      .button-area button[name="percent"]{background-color: #ccc;}
+/* Change Button Backbround Color To Orange and Text Color To White*/
+      .button-area button[name="division"],
+      .button-area button[name="multiplication"],
+      .button-area button[name="subtraction"],
+      .button-area button[name="addition"],
+      .button-area button[name="equal"]{background-color: orange; color: #fff;}
